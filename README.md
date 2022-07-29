@@ -1,2 +1,3 @@
 # topLandingPage
 The Odin Project First Landing Page
+Doing the bare minimum at first and then maybe will spice it up; want to get as many projects done as possible...
