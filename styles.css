@@ -1,0 +1,220 @@
+body,
+h1,
+p {
+    margin: 0;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 10px;
+    width: 25%;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.one,
+.two,
+.three,
+.four {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.one {
+    /* height: 400px; changed from percentage to stop it resizing but there's no point in this project; removing height from each div after writing this */
+    background-color: #1f2937;
+}
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Put the color on the <a> above; may need this if there are other anchor tags in the later html */
+/* .navBar a {
+    color: #e5e7eb;
+} */
+
+.heroMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroMainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+}
+
+.heroMainText h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 75%;
+}
+
+.one img {
+    width: 100%;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.imageContainer {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* All styling changes for Div 2 below; only alter above if global settings affect */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+#infoHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+}
+
+.two img {
+    max-height: 100px;
+    max-width: 100px;
+    border: solid #3882f6;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.packAll {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 500px;
+    /* width: 100% */
+    /* width in this case increases the size of class to fit the specified percentage of its container; in this case, the container is the div with class of two  */
+}
+
+.infoPack {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoPack img {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Div .three only changes below */
+
+.three p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 50%;
+}
+
+.three h3 {
+    text-align: right;
+    width: 100%;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+
+.three {
+    padding: 20px
+}
+
+/* Div .four only changes below */
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.four button {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+
+    /* max-width: fit-content; */
+    /* height: 75px; */
+    /* padding: 0px; */
+}
+
+.actionContainer {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.actionInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
